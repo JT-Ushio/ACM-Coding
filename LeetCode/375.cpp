@@ -11,7 +11,7 @@ public:
     int getMoneyAmount(int n) {
         int f[n+1][n+1];
 
-        // init
+        // init 
         memset(f, 0, sizeof(f));
         for (int i = 1; i <= n; ++i)
             for (int j = i+1; j <= n; ++j)
